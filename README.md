@@ -10,6 +10,8 @@ Lumen has only been tested on macOS, but should work fine on Linux systems as we
 
 See Typora support on [how to install themes](http://support.typora.io/About-Themes/).
 
+If you don't have Work Sans variable fonts installed, you can find them in the `theme/lumen` folder: installation should be as simple as double-clicking the files on a Mac.
+
 To use the latest version, simply download `lumen.css` from the `theme` folder.
 
 ## Caveats
