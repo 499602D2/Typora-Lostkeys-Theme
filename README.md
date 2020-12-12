@@ -8,7 +8,9 @@ Lumen has only been tested on macOS, but should work fine on Linux systems as we
 
 ## Installing Lumen
 
-See Typora support on [how to install themes](http://support.typora.io/About-Themes/)
+See Typora support on [how to install themes](http://support.typora.io/About-Themes/).
+
+To use the latest version, simply download `lumen.css` from the `theme` folder.
 
 ## Caveats
 
