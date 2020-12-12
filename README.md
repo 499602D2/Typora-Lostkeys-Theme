@@ -1,15 +1,23 @@
-# LostKeys Theme for Typora
+# Lumen for Typora
 
 ![preview](preview.png)
 
-Lostkeys is a theme for the excellent [Typora markdown text editor](https://typora.io).
+Lumen is a dark theme for [Typora markdown text editor](https://typora.io). Lumen is based on the excellent Lostkeys theme.
 
-The theme is currently only tested on the MacOS, and it uses some bleeding edge CSS like custom properties (native variables) which may not work on other OSes.
+Lumen has only been tested on macOS, but should work fine on Linux systems as well.
 
-## How to install
+## Installing Lumen
 
-See  Typora support on [how to install themes](http://support.typora.io/About-Themes/)
+See Typora support on [how to install themes](http://support.typora.io/About-Themes/)
 
 ## Caveats
 
-* Math blocks are not tested. Assuming it looks terrible
+* Math blocks are not tested
+
+* Code blocks are still somewhat to-do
+
+* Some issues and to-do improvements in the side-bar
+
+* Fonts not included yet
+
+* Monospaced fonts use Monaco; incompatible on Linux
