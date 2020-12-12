@@ -3,40 +3,47 @@
 @import 'night/sourcemode.dark.css';
 
  :root {
+  /* Background color, accents, border */
+  --bg-color: #111111;
   --accent-color: #404040;
   --accented-background-color: #404040;
-  --bg-color: #111111;
+  --border-color: #404040;
+
+  /* Text colors */
   --text-color: #EEEEEE;
   --header-color: #DFDFDF;
-  --border-color: #404040;
   --link-color: #2F88ED;
 
+  /* Code colors */
   --code-bg-color: #1D1D1D;
 
+  /* Side-bar colors */
   --side-bar-bg-color: #292929;
   --active-file-bg-color: #1D1D1D;
-
-  --window-border: 1px solid rgba(0,0,0,.07);
   
-  /* */
+  /* Font settings */
   --body-font: 'Work Sans', sans-serif;
   --body-font-weight: 400;
-
-  --border-radius: 2px;
-  --document-horizontal-margin: 80px;
-  --document-padding-x: 10ch;
   --font-size: 16px;
   --h1-fontsize: 2rem;
   --h2-fontsize: 1.5rem;
   --h3-fontsize: 1.125rem;
+
+  /* Monospace font settings */
+  --monospace-font: 'Monaco', monospace;
+  --monospace-font-size: 14px;
+  --monospace-line-height: 1.4;
+
+  /* Other things */
+  --border-radius: 2px;
+  --document-horizontal-margin: 80px;
+  --document-padding-x: 10ch;
   --line-height: 1.4;
   --main-content-margin: 0 auto;
   --main-content-max-width: 100ch;
-  --monospace-font-size: 14px;
-  --monospace-font: 'Monaco', monospace;
-  --monospace-line-height: 1.4;
   --nav-width: 200px;
   --vertical-padding: 40px;
+  --window-border: 1px solid rgba(0,0,0,.07);
 }
 
 /* Narrow layout styles */
@@ -51,30 +58,16 @@
 /* Regular font */
 
 @font-face {
-    font-family: 'source-sans-pro';
+    font-family: 'Work Sans';
     font-style: normal;
     font-weight: normal;
-    src: local('source-sans-pro'), local('SourceSansPro-Regular'), url('./lumen/SourceSansPro-Regular.ttf');
+    src: local('Work Sans'), url('./lumen/WorkSans-VariableFont_wght.ttf');
 }
 @font-face {
-    font-family: 'source-sans-pro';
+    font-family: 'Work Sans';
     font-style: italic;
     font-weight: normal;
-    src: local('source-sans-pro'), local('SourceSansPro-It'), url('./lumen/SourceSansPro-It.ttf')
-}
-
-@font-face {
-    font-family: 'source-sans-pro';
-    font-style: normal;
-    font-weight: bold;
-    src: local('source-sans-pro'), local('SourceSansPro-Semibold'), url('./lumen/SourceSansPro-Semibold.ttf')
-}
-
-@font-face {
-    font-family: 'source-sans-pro';
-    font-style: italic;
-    font-weight: bold;
-    src: local('source-sans-pro'), local('SourceSansPro-SemiboldIt'), url('./lumen/SourceSansPro-SemiboldIt.ttf')
+    src: local('Work Sans'), url('./lumen/WorkSans-Italic-VariableFont_wght.ttf')
 }
 
 /* Monospace font */
